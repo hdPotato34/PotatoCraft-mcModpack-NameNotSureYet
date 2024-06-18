@@ -1,0 +1,22 @@
+{
+  "id": "死亡-18-37-18-06-17-2024_-2632-91-3704",
+  "name": "死亡 18:37:18 06-17-2024",
+  "icon": "journeymap:ui/img/waypoint-death-icon.png",
+  "colorizedIcon": "fake:color--14876472-waypoint-death-icon.png",
+  "x": -2632,
+  "y": 91,
+  "z": -3704,
+  "r": 29,
+  "g": 0,
+  "b": 200,
+  "enable": true,
+  "type": "Death",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "encounter"
+	group: "0FB976DCFDFCFFB8"
+	icon: "born_in_chaos_v1:dark_vortex_spawn_egg"
+	id: "4A8A50AA533F0CBB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Encounter"
+}

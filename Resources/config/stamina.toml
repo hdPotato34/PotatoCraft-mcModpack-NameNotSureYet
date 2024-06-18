@@ -1,0 +1,49 @@
+
+#Stamina to let the player run and do stuff.
+[Stamina]
+	#How much stamina the player has per half heart. Each 1 stamina is 1 tick of running
+	#Range: > 0
+	"Stamina per half heart" = 8
+	#Range: > 0
+	"Bonus stamina per level of Vigour Enchantment" = 40
+	#Range: > 0
+	"Bonus stamina per level of Vigour Effect" = 40
+	#How much stamina the player consumes each tick when sprinting
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Stamina consumed on sprint" = 0.9
+	#How much stamina the player consumes on each jump
+	#Range: > 0
+	"Stamina consumed on jump" = 5
+	#How much stamina the player consumes each tick when swimming
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Stamina consumed on swimming" = 2
+	#Multiplier for stamina consumed when the player is swimming with the conduit power effect.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Conduit swimming modifier" = 0.5
+	#If player's max health is above this value, the regeneration speed is increased at the point that regenerating full stamina requires the same time. Set to 0 to disable
+	#Range: > 0
+	"Increased regen above health" = 30
+	#When max stamina goes below this percentage stamina will be locked
+	#Range: 0.0 ~ 1.0
+	"Lock Stamina below health ratio" = 0.3
+	#At which health percentage will stamina be unlocked
+	#Range: 0.0 ~ 1.0
+	"Unlock Stamina at health ratio" = 0.5
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Stamina regen per tick" = 0.7
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Stamina regen per tick if locked" = 0.4
+	#Disable sprinting (and swimming) altogether
+	"Disable Sprinting" = false
+
+	[Stamina.Slowdown]
+		#Below this percentage stamina you'll get slowed down.
+		#Range: 0.0 ~ 1.0
+		Threshold = 0.0
+		#Below this stamina you'll get slowed down.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Flat Threshold" = 0.0
+		#Range: -1.0 ~ 1.7976931348623157E308
+		Amount = -0.2
+		"Only when locked" = true
+

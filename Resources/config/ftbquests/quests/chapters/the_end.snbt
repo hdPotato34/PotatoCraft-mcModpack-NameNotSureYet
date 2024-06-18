@@ -1,0 +1,437 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "5F1B0CC43248FBA5"
+	icon: "minecraft:end_portal_frame"
+	id: "79717F3826ED1A93"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7F386A345AFCCCE5"
+			rewards: [{
+				id: "7F104ACD7536AB9F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "47604BA6941C2AFE"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "31771D4E198F3C37"
+			rewards: [{
+				id: "50E7485BB22275BC"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3D9DD7D6A240D39A"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			id: "6A5208CBE5AF4EA4"
+			rewards: [{
+				id: "1CE2EED9EFCD42F1"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "65A7CBFC4E07F717"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "7D56D993462DDD00"
+			rewards: [{
+				id: "616B2B387DE4F292"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "237E36472E50DCE4"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "196DAACEA9E4AA18"
+			rewards: [{
+				id: "6A5BC4A35826DFF0"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "58309679C7CF1162"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			id: "5D361CEC6F56A52F"
+			rewards: [{
+				id: "38AC09A421561317"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6A6AA4835FD16B12"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Black Eye"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			id: "7DBBA06FC2821018"
+			rewards: [{
+				id: "0B4F1CBE27628E5A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0D9372D6D15E5F32"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Cold Eye"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			id: "72F14E6586BBDA56"
+			rewards: [{
+				id: "1755E2F053E68444"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "10AD3E4F3A1B6A6B"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Corrupted Eye"
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			id: "0C517E619CBB1CF9"
+			rewards: [{
+				id: "0FD654F09CFE7F06"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6BC2032AEA2576DF"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Lost Eye"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			id: "59935F3C10A731F1"
+			rewards: [{
+				id: "3B12F9726AF3FAA7"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7B2477E829394F05"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Nether Eye"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			id: "5239D9C253BDF365"
+			rewards: [{
+				id: "2F8B23FFA88A9E3B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3953A7E9C9E5ABED"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Old Eye"
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			id: "78D1C08C74D15CD0"
+			rewards: [{
+				id: "7B65DDCD167E5CA6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "14D90EFE1387378F"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Rogue Eye"
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			id: "620C934FBFE9D036"
+			rewards: [{
+				id: "0193236A91DF43C9"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7B5FF37E8F84C733"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Guardian Eye"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			id: "740275BF7FAF1840"
+			rewards: [{
+				id: "72B8761F7AF34A15"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1E114B1FCB1C4BD7"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Magical Eye"
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			id: "620D36CECBDCCD57"
+			rewards: [{
+				id: "16DE1F487FD5CE75"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "39B3378C619AD52D"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Wither Eye"
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			id: "2C7E857ADB40FCA6"
+			rewards: [{
+				id: "3F44EE5914179020"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "34935D245A33E6AD"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Witch Eye"
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"196DAACEA9E4AA18"
+				"7F386A345AFCCCE5"
+				"31771D4E198F3C37"
+				"7D56D993462DDD00"
+				"59935F3C10A731F1"
+				"72F14E6586BBDA56"
+				"7DBBA06FC2821018"
+				"0C517E619CBB1CF9"
+				"740275BF7FAF1840"
+				"620C934FBFE9D036"
+				"78D1C08C74D15CD0"
+				"5239D9C253BDF365"
+				"5D361CEC6F56A52F"
+				"6A5208CBE5AF4EA4"
+				"2C7E857ADB40FCA6"
+				"620D36CECBDCCD57"
+				"0A291BA71E06E8EE"
+			]
+			dependency_requirement: "one_completed"
+			id: "1F980E53FFC2F0E8"
+			min_required_dependencies: 12
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_portal_frame"
+				id: "581DC8FF2140D2D7"
+				title: "Enter The End"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			description: ["Craft an ender eye using ender pearl and blaze powder. Follow its direction and find the portal to the \"unknown\" realm."]
+			id: "0A291BA71E06E8EE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A1CAB4049BF18BE"
+					table_id: 2226301122264367649L
+					type: "random"
+				}
+				{
+					id: "76159AD907FA1B1F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			size: 1.5d
+			subtitle: "Dragon Quest"
+			tasks: [{
+				id: "447D74C9D5981BA5"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "Seeker"
+			x: -5.0d
+			y: -4.5d
+		}
+	]
+	title: "The End"
+}

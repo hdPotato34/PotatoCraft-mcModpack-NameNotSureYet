@@ -1,0 +1,350 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "explorer"
+	group: ""
+	icon: "minecraft:compass"
+	id: "403555CA243C8A94"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4B21BA97543F3115"
+			tasks: [{
+				id: "24A7D1FF92B843D4"
+				title: "Explorer"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24A7D1FF92B843D4"]
+			hide_dependency_lines: false
+			id: "367341B7BF700AAE"
+			rewards: [
+				{
+					id: "49B9718346927A53"
+					item: {
+						Count: 1
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5335BA847B539016"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:leather_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "42BA30BE00B13D42"
+				stat: "minecraft:walk_one_cm"
+				title: "Setting Off"
+				type: "stat"
+				value: 1500
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B21BA97543F3115"]
+			id: "19C11D4077820FFA"
+			tasks: [{
+				id: "4C1B3B51F2DB3F02"
+				stat: "minecraft:sprint_one_cm"
+				type: "stat"
+				value: 2000
+			}]
+			title: "Runner"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19C11D4077820FFA"]
+			id: "4A122C66FA6FA847"
+			rewards: [
+				{
+					id: "29879D72A19CBCBA"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71078A022ADD458F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "14AD8F70706199CD"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Sky's The Limit"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "0E54B7AEC0684226"
+			tasks: [{
+				id: "262BF673CFF178C2"
+				structure: "minecraft:mineshaft"
+				type: "structure"
+			}]
+			title: "Mineshaft"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "2AA6E3F30EA640AE"
+			tasks: [{
+				id: "3C975987F5A7D279"
+				structure: "betterfortresses:fortress"
+				type: "structure"
+			}]
+			title: "Fortress"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "54A5144FBB20AA75"
+			tasks: [{
+				id: "32C70399F38212A2"
+				structure: "betterdeserttemples:desert_temple"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			id: "6BAAF81CB3E0A77B"
+			tasks: [{
+				id: "3289C75CC5EF3185"
+				structure: "minecraft:mansion"
+				type: "structure"
+			}]
+			title: "Mansion"
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			id: "70B04ED77A2A7FEA"
+			tasks: [{
+				id: "1A76E625AD904001"
+				structure: "nullscape:dragon_skeleton"
+				type: "structure"
+			}]
+			title: "Dragon Skeleton"
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			id: "483AD6682CA02C60"
+			tasks: [{
+				id: "43E5F4C8476F1A91"
+				structure: "betterstrongholds:stronghold"
+				type: "structure"
+			}]
+			title: "Stronghold"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "3AD96B80366A0DE2"
+			tasks: [{
+				id: "464E227A3A9E355A"
+				structure: "tlc:lost_castle"
+				type: "structure"
+			}]
+			title: "Lost Castle"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "76AA3245C2278460"
+			tasks: [{
+				biome: "minecraft:badlands"
+				id: "1BA0F854CE6442B4"
+				type: "biome"
+			}]
+			title: "Badlands"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			id: "3791C11315A53BDE"
+			tasks: [{
+				biome: "minecraft:deep_dark"
+				id: "6AA4D53AA00A13AF"
+				type: "biome"
+			}]
+			title: "Deep Dark"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "1ACD16D6805FFF82"
+			tasks: [{
+				id: "755DC006BE19A56D"
+				structure: "minecraft:ancient_city"
+				type: "structure"
+			}]
+			title: "Ancient City"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			id: "0BF686A8DC861545"
+			tasks: [{
+				biome: "minecraft:dark_forest"
+				id: "6E8CE79AC5454139"
+				type: "biome"
+			}]
+			title: "Dark Forest"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "49744E0E34484059"
+			tasks: [{
+				biome: "minecraft:jungle"
+				id: "7ACF465CB1981B88"
+				type: "biome"
+			}]
+			title: "Jungle"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			id: "13B62273FCD48849"
+			tasks: [{
+				biome: "incendium:infernal_dunes"
+				id: "3444AC6B4CD18C7A"
+				type: "biome"
+			}]
+			title: "Infernal Dunes"
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			id: "4F191DC2C52C6399"
+			tasks: [{
+				biome: "incendium:inverted_forest"
+				id: "61B9728421B7001B"
+				type: "biome"
+			}]
+			title: "Inverted Forest"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "236D38A2F5F21700"
+			tasks: [{
+				biome: "incendium:quartz_flats"
+				id: "46167D55EC5EE290"
+				type: "biome"
+			}]
+			title: "Quartz Flats"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "2BABBBE17FB1AA32"
+			tasks: [{
+				biome: "incendium:toxic_heap"
+				id: "699815D43C2E08DA"
+				type: "biome"
+			}]
+			title: "Toxic Heap"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			id: "2F3970691EF040E6"
+			tasks: [{
+				biome: "minecraft:cherry_grove"
+				id: "45FCFB0E8DE964B9"
+				type: "biome"
+			}]
+			title: "Cherry Grove"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			id: "08F341741D96B52A"
+			tasks: [{
+				biome: "incendium:volcanic_deltas"
+				id: "452927AA33B6B32A"
+				type: "biome"
+			}]
+			title: "Volcanic Deltas"
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4A122C66FA6FA847"]
+			id: "3E1AB1533BD894A4"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1B54BF4A33D69FCE"
+				stat: "minecraft:fly_one_cm"
+				type: "stat"
+				value: 10000
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "459B63AFE8D70987"
+			tasks: [{
+				id: "6D1DFE175BADF959"
+				structure: "born_in_chaos_v1:infernal_pumpkin"
+				type: "structure"
+			}]
+			title: "Infernal Pumpkin"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			id: "427FAD344C891672"
+			tasks: [{
+				id: "0B3D50CB0189AD36"
+				structure: "philipsruins:rare_ruin"
+				type: "structure"
+			}]
+			title: "Ruin"
+			x: 7.5d
+			y: -5.0d
+		}
+	]
+	title: "Explorer"
+}

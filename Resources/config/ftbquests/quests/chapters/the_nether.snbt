@@ -1,0 +1,45 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_nether"
+	group: "5F1B0CC43248FBA5"
+	icon: "minecraft:netherrack"
+	id: "18CC60C1C1140A03"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"You have entered The Nether!"
+			""
+			"Watch out, as new challenges emerged, different from what you have experienced in a vanilla gameplay. "
+			""
+			"Go Deeper, my friend!"
+			""
+			"Oh yes, watch out for Piglin Brute. They are a headache. "
+		]
+		id: "4B2B45AE0B4FB2CB"
+		rewards: [
+			{
+				id: "6F60ECA2F54D662E"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}
+			{
+				id: "39A71F3ED153EEF7"
+				type: "xp"
+				xp: 15
+			}
+		]
+		size: 1.5d
+		subtitle: "Greetings Adventurer"
+		tasks: [{
+			dimension: "minecraft:the_nether"
+			id: "7F9C71AEAD492151"
+			title: "Enter Nether"
+			type: "dimension"
+		}]
+		x: -1.5d
+		y: 0.0d
+	}]
+	title: "The Nether"
+}

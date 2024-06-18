@@ -1,0 +1,1075 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: ""
+	icon: "minecraft:oak_log"
+	id: "3CC57DC8E785CB7F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["64777BCE2EE4AB53"]
+			description: [
+				"你好，我的朋友！"
+				"正如你所见，这里的汉字说明我是另外一个作者。"
+				"这里有一条我偷偷打开的任务线……"
+				"&4想必你的双手已沾上鲜血了……&r"
+				"&o那么，为什么不试试更多呢？&r"
+				"&l开始你的杀戮之旅吧！更多的击杀数将为你带来丰厚的奖励！&r"
+			]
+			id: "592EB67A522DD1EB"
+			rewards: [{
+				count: 16
+				id: "74BACFAC4BB6D363"
+				item: "minecraft:baked_potato"
+				type: "item"
+			}]
+			subtitle: "一段美妙的旅程就要开始了"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2C36E07E383D4685"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1
+			}]
+			title: "杀！"
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["592EB67A522DD1EB"]
+			description: [
+				"十个？"
+				"很好。"
+				"但&l&o&4远远不够！&r&r&r"
+			]
+			id: "1BFAF7DB7DD70CEF"
+			rewards: [
+				{
+					id: "6F0C103667DCC6D6"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E2C9F67B94A3997"
+					item: {
+						Count: 1
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15FF393197E92B46"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13D0328A3E7DEE63"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "十全十美（不是吗？）"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:stone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2EAF00FA486FEE62"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 10
+			}]
+			title: "更多……"
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1BFAF7DB7DD70CEF"]
+			description: [
+				"&l100个！&r"
+				"哇哦，你还真是有点天赋诶：）"
+				"你值得&e更好的奖励&r……"
+				"&l&o&4同时也应该面对更强的对手！&r&r&r"
+				"更强……"
+				"更残忍……"
+				"你还能保留人性吗？"
+			]
+			id: "34F2C1011A307DB5"
+			rewards: [
+				{
+					count: 5
+					id: "6ACD756E5CDCEAB1"
+					item: {
+						Count: 1
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "21D021A058DB3892"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31B20DA030A853AF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "20327694DB815437"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 300
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5076FF2402F18960"
+					item: "endrem:undead_soul"
+					type: "item"
+				}
+			]
+			subtitle: "100!"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "069268E50D13E5C2"
+				stat: "minecraft:mob_kills"
+				title: "ONE HUNDRED"
+				type: "stat"
+				value: 100
+			}]
+			title: "百词斩？百次斩！"
+			x: 11.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["64777BCE2EE4AB53"]
+			description: [
+				"对方惨叫着。"
+				"害怕？兴奋？还是无所谓？"
+				"你已经感受不到自己的情绪波动了。"
+				"看着自己&4沾满同伴鲜血的双手&r，"
+				"你很快平静下来，"
+				"并意识到自己应该换一把&l更好的剑&r了"
+				"——&4手中这把都快卷刃了……&r"
+				""
+				"你在期待什么，"
+				"&4&l&o杀人犯先生？&r&r&r"
+			]
+			id: "5B8ABB9C88FA3EDB"
+			rewards: [
+				{
+					id: "38E7CE8F74478C47"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7450E59036DFED38"
+					item: "graveyard:vial_of_blood"
+					type: "item"
+				}
+				{
+					id: "3690EE5D695B5379"
+					item: "born_in_chaos_v1:fused_bone"
+					type: "item"
+				}
+			]
+			subtitle: "“杀人啦！”"
+			tasks: [{
+				icon: "minecraft:player_head"
+				id: "03003610406366BD"
+				stat: "minecraft:player_kills"
+				title: "Murderer"
+				type: "stat"
+				value: 1
+			}]
+			title: "杀人犯"
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5B8ABB9C88FA3EDB"]
+			description: [
+				"你真是令我刮目相看。"
+				"杀死十名同伴？"
+				"不不不，"
+				"那是行走的&2********&r：）"
+				"不是吗？"
+				""
+				"良心是最珍贵的，"
+				"这笔财富是用良心换来的，"
+				"所以这笔财富才是最珍贵的，"
+				"&4所以良心并不那么珍贵……&r"
+				""
+				""
+				"...你渴望更强大的力量，这是获取&l&4它&r&r的唯一途径"
+				"&l&4对吗，杀人狂先生？&r&r"
+			]
+			id: "324B52F956C63F51"
+			rewards: [
+				{
+					id: "78D7CACB92816F4E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1030776BF85D67C9"
+					item: {
+						Count: 1
+						id: "simplyswords:sword_on_a_stick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "你的良心不会痛吗？"
+			tasks: [{
+				id: "6ED86798806F3CAB"
+				stat: "minecraft:player_kills"
+				title: "丧心病狂"
+				type: "stat"
+				value: 10
+			}]
+			x: 13.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["64777BCE2EE4AB53"]
+			description: [
+				"嘿！"
+				"别放弃！"
+				"毕竟要是你不玩了……"
+				"{@pagebreak}"
+				"我们就得买票去马戏团看小丑了！"
+				"哈哈哈哈哈哈……"
+				""
+				"欸？你怎么不跟着我们一块笑啊？"
+				"是有什么心事吗？"
+				""
+				"好啦好啦，"
+				"这些给你，"
+				"下次小心一点！"
+			]
+			id: "4BF05E77046502EB"
+			rewards: [
+				{
+					id: "2FCF30EC51120C4C"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "62AB82449EA2C7ED"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "770CBDA3EA27C9CD"
+					item: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "又死了？"
+			tasks: [{
+				icon: "minecraft:skeleton_skull"
+				id: "689BFEBB2CDD1CC6"
+				stat: "minecraft:deaths"
+				title: "Loser"
+				type: "stat"
+				value: 15
+			}]
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4BF05E77046502EB"]
+			description: [
+				"额……"
+				"要不然……"
+				"咱们还是寻找一下在厨艺方面的天赋吧？"
+				""
+				"其实你并不需要证明自己的。"
+				""
+				"厨房也是个不错的地方。"
+				"换条跑道再出发！"
+			]
+			id: "55694C7FEE859866"
+			rewards: [
+				{
+					count: 10
+					id: "02965046AD3D3E82"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "7E088D5C19696E6F"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "4CEF4A11476F6D3B"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "78807F7ADB9A5358"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "63B110CC9D457310"
+					item: {
+						Count: 1
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "14181D5391068264"
+					item: "farmersdelight:cabbage"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "7910057227F0C5BA"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "5FEBBCB99942DD94"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+			]
+			subtitle: "也许……不一定……"
+			tasks: [{
+				icon: "minecraft:black_bed"
+				id: "36371C1A32ADC6B9"
+				stat: "minecraft:deaths"
+				title: "又双叒叕死了？"
+				type: "stat"
+				value: 50
+			}]
+			x: 15.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["324B52F956C63F51"]
+			description: ["你胜利了，你获取了这个世界上的禁忌力量，不过你需要考虑，这值得么"]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2AB8965B01F9804F"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "0FEC6846845FEB76"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:darkwarblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/effect give @s minecraft:bad_omen infinite 5"
+					icon: "minecraft:netherite_ingot"
+					id: "2C95E3AFD7423E02"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: true
+					title: "good stuff"
+					type: "command"
+				}
+				{
+					id: "771FC29A2901E36C"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "“但是代价呢？”"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "14A0FD9AC5D13148"
+				stat: "minecraft:player_kills"
+				type: "stat"
+				value: 64
+			}]
+			title: "终极邪恶"
+			x: 13.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["55694C7FEE859866"]
+			hide_details_until_startable: true
+			icon: "minecraft:wither_skeleton_skull"
+			id: "02570850ED190F61"
+			rewards: [
+				{
+					id: "5C02B15702F2616F"
+					item: "supplementaries:enderman_head"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4D72310008908A64"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 10s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3305F56728974009"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "死亡意味着什么？"
+			tasks: [{
+				id: "294741A99E16FF5E"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 350
+			}]
+			title: "向死而生"
+			x: 15.75d
+			y: -9.0d
+		}
+		{
+			dependencies: ["34F2C1011A307DB5"]
+			id: "664E64A990F1B370"
+			rewards: [
+				{
+					id: "648E5EB9F97D6A3D"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 10s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4084D795737D7BEB"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_ritual_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0496C90927065858"
+					stat: "minecraft:mob_kills"
+					type: "stat"
+					value: 1200
+				}
+				{
+					entity: "minecraft:ender_dragon"
+					icon: "minecraft:dragon_head"
+					id: "2B25403AAB225F6E"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "世界征服者"
+			x: 11.25d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"664E64A990F1B370"
+				"02570850ED190F61"
+				"2AB8965B01F9804F"
+			]
+			icon: "supplementaries:hourglass"
+			id: "7777EAB79D58BE4A"
+			rewards: [
+				{
+					id: "1C0BA9D307A48B1F"
+					item: {
+						Count: 1
+						id: "minecraft:writable_book"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2A3001754E750BB4"
+					item: "born_in_chaos_v1:supreme_measure"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "签个名吧"
+			tasks: [{
+				id: "52842BDABAFFC56E"
+				title: "生命"
+				type: "checkmark"
+			}]
+			title: "“生命的真谛”"
+			x: 13.5d
+			y: -10.5d
+		}
+		{
+			id: "64777BCE2EE4AB53"
+			rewards: [{
+				id: "44DC02B7745B3EDE"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.5d
+			subtitle: "“不归路”"
+			tasks: [{
+				id: "3AFA6C137170A4D3"
+				title: "Battle"
+				type: "checkmark"
+			}]
+			title: "战斗启程"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["219222FB35E5DD38"]
+			description: [
+				"This game encourages you to eat better. Have a more diversified diet, it is beneficial to your health. You had any steak? Try cooking it in another manner. "
+				""
+				"See \"Farmer\" and make yourself a healthy meal."
+			]
+			hide_dependency_lines: false
+			id: "267DE38E37FE0155"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					count: 3
+					id: "687DA41C9CEE03C2"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					id: "195AE4002C72634F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "1D870797DE641B65"
+				item: {
+					Count: 1
+					id: "farmersdelight:iron_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Delightful"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Make your home look nice so that, well, it looks nice. "
+				""
+				"Check out \"Furniture\" for other cool stuff you can make for your home."
+			]
+			id: "02670893D81A2B46"
+			rewards: [
+				{
+					command: "/effect give @p farmersdelight:comfort 1000 1 "
+					icon: "farmersdelight:apple_pie"
+					id: "605481B4097EC58C"
+					title: "comfort"
+					type: "command"
+				}
+				{
+					id: "670AC838770EDDBA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "634111F90D2ABB5B"
+				item: {
+					Count: 1
+					id: "handcrafted:oak_chair"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Nice and Cozy"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"In your journey, you will encounter a number of hostile entities. Sometimes when the peaceful ways don't work out, you must be a conqueror. "
+				""
+				"Go to \"Encounter\" and find out more about the evil side of the world.  "
+			]
+			id: "29B33D9F0AA70BDE"
+			rewards: [
+				{
+					id: "5B905B6D504D69FC"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_regeneration"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "41323B0DFDCBAFF3"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "03194C21F704EA77"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "47DE6A3FBB4F8773"
+				type: "kill"
+				value: 2L
+			}]
+			title: "Encounter"
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"You have now entered the bottomless pit of \"Create\""
+				""
+				"Try automating all your resource productions, and have fun along the way. "
+				""
+				"See chapter \"Create\" for a roadmap. "
+			]
+			id: "624BF4E2FF3B7B87"
+			tasks: [{
+				id: "114E941198B900AF"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			title: "Creator"
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			id: "020B916AA57F131D"
+			rewards: [{
+				id: "583DDDDD261EE4AA"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "219222FB35E5DD38"
+				title: "Hello World"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["020B916AA57F131D"]
+			hide_dependency_lines: false
+			hide_text_until_complete: false
+			id: "5B0A801863DB8718"
+			rewards: [{
+				id: "3A05AA92E5E3928C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				count: 4L
+				id: "6690D4282E61D5B1"
+				item: "notreepunching:flint_shard"
+				type: "item"
+			}]
+			title: "getting started"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B0A801863DB8718"]
+			id: "30A470729309EE88"
+			rewards: [{
+				id: "05B713FCE771E57D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "0F7FEF93C0A5D007"
+				item: {
+					Count: 1
+					id: "notreepunching:flint_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6690D4282E61D5B1"]
+			id: "262DF881D80E5F80"
+			rewards: [{
+				id: "16B1448529202D48"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				count: 2L
+				id: "2566AD903013ED80"
+				item: { Count: 2, id: "notreepunching:plant_string" }
+				type: "item"
+			}]
+			title: "primative tool-making"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["30A470729309EE88"]
+			description: [""]
+			id: "46EA48658FE01114"
+			rewards: [{
+				id: "4F7F0A5E7D3A4429"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "60A7BD7FEE0F6F0E"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Crafting!"
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			description: ["I have 20, how much do you have?"]
+			id: "5BCFECDA409735F7"
+			rewards: [{
+				id: "547CBB98E7A14924"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				count: 20L
+				id: "731FAD747094279E"
+				item: { Count: 20, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			title: "Iron Ingots"
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			description: ["Congrats! Now you can call others HOMELESS//"]
+			id: "5C08F2C88128CAD3"
+			rewards: [{
+				id: "72643EB4E4DFB993"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "1EB3F454F54F38CA"
+				item: "minecraft:oak_door"
+				type: "item"
+			}]
+			title: "Build your home"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			id: "45028EA47FFC776E"
+			rewards: [{
+				id: "356024A180161E84"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "54B0981FE4042308"
+				item: "vs_eureka:oak_ship_helm"
+				type: "item"
+			}]
+			title: "Sail"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			id: "49CCBDE71F44EE43"
+			rewards: [
+				{
+					id: "6E10609B6A3DF737"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "0AB8684393473D5C"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [{
+				count: 5L
+				id: "0725981432349232"
+				item: { Count: 5, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			title: "The wealthy"
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			id: "24A0C76E1E56C67B"
+			rewards: [{
+				id: "27C4ED21F469A041"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "37571E671B64A0FA"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "Path to Power"
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			id: "348E98228F2B34FA"
+			rewards: [{
+				id: "3CDA24140E30C10B"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "10EB773C33D6CE14"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			title: "Pilot"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "444015CA8FCEC7CD"
+			rewards: [{
+				id: "6A5B2417CAFA61A1"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "1ADAD3D3876E78AA"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Cover Me In Diamonds"
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			id: "133716C0E9B218BE"
+			rewards: [{
+				id: "0AFA13298A710557"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F04F45235B96569"
+				points: false
+				type: "xp"
+				value: 100L
+			}]
+			title: "Experienced"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			id: "6E6B221AF731704D"
+			tasks: [{
+				id: "564CB6E2FF60A685"
+				item: "exposure:camera"
+				type: "item"
+			}]
+			title: "Mechanical Eye"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			id: "78DE73A0DA863EAB"
+			tasks: [{
+				id: "469D185362A851C1"
+				item: "vinery:red_grape"
+				type: "item"
+			}]
+			title: "Lets Do Vinery"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			id: "23AA8E1FA890204B"
+			tasks: [{
+				id: "35EBD1D19799FC4B"
+				item: "naturalist:teddy_bear"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			id: "69EA115608F70429"
+			tasks: [{
+				id: "0AA1F760D129E107"
+				item: "born_in_chaos_v1:bone_heart"
+				type: "item"
+			}]
+			title: "Heartbreak"
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			id: "41622B2A22C19589"
+			tasks: [{
+				id: "0ECDC8CB0036F510"
+				item: "simplyswords:runic_tablet"
+				type: "item"
+			}]
+			title: "Runic Power"
+			x: -5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["46EA48658FE01114"]
+			id: "2B49C7BCE8B835A4"
+			tasks: [{
+				id: "0170D7423F4C0B04"
+				item: {
+					Count: 1
+					id: "notreepunching:flint_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.0d
+		}
+	]
+	title: "Main"
+}

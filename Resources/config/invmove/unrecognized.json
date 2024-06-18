@@ -1,0 +1,40 @@
+{
+  "allowMovement": {
+    "net.minecraft.client.gui.screens.ReceivingLevelScreen": true,
+    "me.shedaniel.rei.impl.client.gui.screen.DefaultDisplayViewingScreen": true,
+    "journeymap.client.ui.fullscreen.Fullscreen": true,
+    "mezz.jei.gui.recipes.RecipesGui": true,
+    "net.mehvahdjukaar.supplementaries.client.screens.TrappedPresentScreen": true,
+    "top.theillusivec4.curios.client.gui.CuriosScreen": true,
+    "com.aetherteam.aether.client.gui.screen.inventory.AccessoriesScreen": true,
+    "net.mehvahdjukaar.supplementaries.client.screens.RedMerchantScreen": true,
+    "com.aetherteam.aether.client.gui.screen.ValkyrieQueenDialogueScreen": true,
+    "com.aetherteam.aether.client.gui.screen.inventory.SunAltarScreen": true,
+    "org.valkyrienskies.eureka.gui.shiphelm.ShipHelmScreen": true,
+    "org.valkyrienskies.eureka.gui.engine.EngineScreen": true,
+    "net.mehvahdjukaar.sawmill.SawmillScreen": true,
+    "net.minecraft.client.gui.screens.inventory.SmithingScreen": true,
+    "dev.ftb.mods.ftblibrary.ui.ScreenWrapper": true,
+    "tallestegg.guardvillagers.client.gui.GuardInventoryScreen": true,
+    "net.minecraft.client.gui.screens.PauseScreen": true,
+    "me.jellysquid.mods.sodium.client.gui.SodiumOptionsGUI": true,
+    "net.coderbot.iris.gui.screen.ShaderPackScreen": true,
+    "net.mehvahdjukaar.supplementaries.client.screens.BlackBoardScreen": true,
+    "journeymap.client.ui.component.ScrollPaneScreen": true,
+    "journeymap.client.ui.fullscreen.menu.PopupMenu": true,
+    "com.simibubi.create.foundation.blockEntity.behaviour.ValueSettingsScreen": true
+  },
+  "hideBackground": {
+    "me.shedaniel.rei.impl.client.gui.screen.DefaultDisplayViewingScreen": true,
+    "mezz.jei.gui.recipes.RecipesGui": true,
+    "net.mehvahdjukaar.supplementaries.client.screens.TrappedPresentScreen": true,
+    "top.theillusivec4.curios.client.gui.CuriosScreen": true,
+    "com.aetherteam.aether.client.gui.screen.inventory.AccessoriesScreen": true,
+    "net.mehvahdjukaar.supplementaries.client.screens.RedMerchantScreen": true,
+    "com.aetherteam.aether.client.gui.screen.inventory.SunAltarScreen": true,
+    "net.mehvahdjukaar.sawmill.SawmillScreen": true,
+    "net.minecraft.client.gui.screens.inventory.SmithingScreen": true,
+    "dev.ftb.mods.ftblibrary.ui.ScreenWrapper": true,
+    "tallestegg.guardvillagers.client.gui.GuardInventoryScreen": true
+  }
+}
